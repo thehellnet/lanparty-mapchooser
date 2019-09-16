@@ -1,0 +1,40 @@
+.mapchooser-app-toolbar {
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.mapchooser-fill-remaining-space {
+  flex: 1 1 auto;
+}
+
+.mapchooser-maps-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.mapchooser-map-card {
+  flex: 1 0 400px;
+  //max-width: 400px;
+  margin: 1em;
+}
+
+.mapchooser-map-image {
+  //max-width: 800px;
+}
+
+.mapchooser-map-card mat-card-content {
+  padding-top: 1em;
+}
+
+.mapchooser-map-card mat-card-actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.mapchooser-map-card mat-card-actions button {
+  flex: 1 0 60px;
+}
