@@ -4,7 +4,6 @@
   <button mat-button>FAST RESTART</button>
   <button mat-button>MAP RESTART</button>
 </mat-toolbar>
-
 <div class="mapchooser-maps-container">
   <mat-card *ngFor="let gameMap of gameMaps" class="mapchooser-map-card">
     <mat-card-header>
@@ -21,5 +20,4 @@
     </mat-card-actions>
   </mat-card>
 </div>
-
 <router-outlet></router-outlet>
